@@ -1,15 +1,4 @@
-Your first Linux command
 
-    • To see the current location of your working directory, we need to use the “pwd” command.
-
-Command: $ pwd
-Output:   home/ajay
-
-    • To see what files are in our home directory, we need to use the “ls” command.
-
-Command :$ ls  
-Output
-Application 
 Shortcuts  Ubuntu Basic Commands for Biologist
 
 #What is Ubuntu?
