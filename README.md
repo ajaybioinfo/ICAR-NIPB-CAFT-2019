@@ -1,6 +1,7 @@
 # Ubuntu Basic Commands for Biologist
 
 ## What is Ubuntu?
+
 Ubuntu is a free complete Linux operating system, which is available with professional  and community support. The Ubuntu community is built on the ideas “that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customize and alter their software in whatever way they see fit”. 
 ---
 
