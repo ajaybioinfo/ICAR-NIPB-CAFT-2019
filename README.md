@@ -3,7 +3,8 @@
 
 ### Ajay Kumar Mahato ###
 
-<img src="images/ajay.jpg" width=200>
+<img src="/images/ajay.jpg" width=200>
+![test image size](/img/post-bg-2015.jpg){:height="700px" width="400px"}
 
 
 # Ubuntu Basic Commands for Biologist
