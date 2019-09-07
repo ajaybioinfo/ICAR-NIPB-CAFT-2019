@@ -2,7 +2,7 @@
 ---
 
 ### Ajay Kumar Mahato ###
-<img src="images/ajay.jpg">
+<img src="images/ajay.jpg" width=100>
 ---
 
 # Ubuntu Basic Commands for Biologist
