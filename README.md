@@ -400,13 +400,13 @@ Length: 2174 (2.1K) (unauthoritative)
 * How to Install BLAST+ version 2.6.0 (Step-by-Step) Ubuntu/Fedora/CentOS
 
 
-1. Create a new directory name ncbi-blast+
+* Create a new directory name ncbi-blast+
 
 ```bash
 $ mkdir ncbi-blast+
 ```
 
-1.  Enter in to created directory
+*  Enter in to created directory
 
 ```bash
 $ cd ncbi-blast+
@@ -415,13 +415,12 @@ $ cd ncbi-blast+
 #For Fedora/ CentOS/ Ubuntu operating system
 
 
-1.  Download the software from NCBI-FTP site
+* Download the software from NCBI-FTP site
 
 ```bash
 $ wget -N ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.6.0/ncbi-blast-2.6.0+-1.x86_64.rpm
 ```
-
-1. To Install (Fedora/ CentOS operating system)
+* To Install (Fedora/ CentOS operating system)
 ```bash
 $ sudo yum install ncbi-blast-2.6.0+-1.x86_64.rpm -nogpgcheck
 ```
@@ -430,12 +429,12 @@ $ sudo yum install ncbi-blast-2.6.0+-1.x86_64.rpm -nogpgcheck
 ```bash
 $ sudo alien -i ncbi-blast-2.6.0+-1.x86_64.rpm 
 ```
-1.***The easieat way***
+***The easieat way***
 ```bash
 $ sudo apt-get install ncbi-blast+
 ```
 
-1.  To check for successful installation
+*To check for successful installation
 ```bash
 $ blastn -h
 
@@ -469,9 +468,9 @@ blastn [-h] [-help] [-import_search_strategy filename]
 **NCBI-BLAST+ version 2.6.0   is successfully installed on your system, now you can perform sequence similarity search locally with your customized database and queries.
 ```
 
- * Running applications example: local BLAST search
+ **Running applications example: local BLAST search***
 
-1. Prepare input
+*Prepare input
 
 Create your local scratch directory (if not yet done) and a sub-directory blast_test
 where this exercise will be run
@@ -481,25 +480,25 @@ $cd blast_test
 ```
 
 
-1. Copy file with query sequences to the exercise directory:
+*Copy file with query sequences to the exercise directory:
 ```bash
 cp /shared_data/Linux_workshop/seq_tst.fa 
 
 ```
 
 .
-1. Copy Swissprot BLAST database (we’ll make a separate directory for it)
+*Copy Swissprot BLAST database (we’ll make a separate directory for it)
 ```bash
 
 mkdir databases
 cp /shared_data/Linux_workshop/databases/swissprot* ./databases
 ```
 
-1. Verify that the files have been copied (use ls command)
+*Verify that the files have been copied (use ls command)
 Running applications example: BLAST
 run the program
 
-1. Very general syntax for launching applications:
+*Very general syntax for launching applications:
 In our specific case:
 ```bash
 blastall -p blastx -b 1 -d ./databases/swissprot -i seq_tst.fa >& run.log
