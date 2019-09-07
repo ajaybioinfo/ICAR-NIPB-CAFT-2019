@@ -1,7 +1,7 @@
 ![Markdown Logo]
 
 
-<img src="images/logo.jpg">
+<img src="images/logo.jpeg">
 # Ubuntu Basic Commands for Biologist
 
 ## What is Ubuntu?
@@ -42,6 +42,7 @@ The commands are interpreted by a program referred to as shell which is  an inte
 
 You should now see something that looks like the following (any text that appears inside your terminal window will look different):
 
+<img src="images/terminal2.jpg">
 
 ---
 
