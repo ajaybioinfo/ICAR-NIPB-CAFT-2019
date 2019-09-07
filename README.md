@@ -435,6 +435,7 @@ $ sudo apt-get install ncbi-blast+
 ```
 
 *To check for successful installation
+
 ```bash
 $ blastn -h
 
@@ -464,11 +465,12 @@ blastn [-h] [-help] [-import_search_strategy filename]
 [-num_alignments int_value] [-line_length line_length] [-html]
 [-max_target_seqs num_sequences] [-num_threads int_value] [-remote]
 [-version]
-
-**NCBI-BLAST+ version 2.6.0   is successfully installed on your system, now you can perform sequence similarity search locally with your customized database and queries.
 ```
 
- **Running applications example: local BLAST search***
+****NCBI-BLAST+ version 2.6.0   is successfully installed on your system, now you can perform sequence similarity search locally with your customized database and queries****
+
+
+ ***Running applications example: local BLAST search***
 
 *Prepare input
 
