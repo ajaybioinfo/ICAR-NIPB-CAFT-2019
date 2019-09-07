@@ -1,22 +1,24 @@
+# Ubuntu Basic Commands for Biologist
 
-Shortcuts  Ubuntu Basic Commands for Biologist
-
-#What is Ubuntu?
+## What is Ubuntu?
 Ubuntu is a free complete Linux operating system, which is available with professional  and community support. The Ubuntu community is built on the ideas “that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customize and alter their software in whatever way they see fit”. 
+---
 
 
-Ubuntu Graphical User Interface Overview
+### Ubuntu Graphical User Interface Overview
+<img src="images/ubuntu.jpg"
+
+---
 
 
+## Interacting with Linux via terminal window
 
-
-Interacting with Linux via terminal window
-
-In Linux machine user can communicate via commands which is  typed  in the terminal window
+* In Linux machine user can communicate via commands which is  typed  in the terminal window
 The commands are interpreted by a program referred to as shell which is  an interface between Linux and the user. We will be using the shell called bash during this whole exercise.
-Typically, each command is typed in one line and executed by hitting the Enter key on the keyboard.
 
-# A commands deal with operation on files ( i.e. creating, editing, copying, writing) and execution of processes, its status monitoring or termination of executed process e.g.,
+* Typically, each command is typed in one line and executed by hitting the Enter key on the keyboard.
+
+A commands deal with operation on files ( i.e. creating, editing, copying, writing) and execution of processes, its status monitoring or termination of executed process e.g.,
 Request information (e.g., list user’s files- ls command)
 Launch a simple task (e.g., rename a file-mv command)
 Start an application (e.g., Firefox web browser, BWA aligner, IGV viewer, ...)
