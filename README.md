@@ -1,7 +1,5 @@
-![Markdown Logo]
-
-
 <img src="images/logo.jpeg">
+
 # Ubuntu Basic Commands for Biologist
 
 ## What is Ubuntu?
