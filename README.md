@@ -1,4 +1,9 @@
 <img src="images/logo.jpeg">
+---
+
+###Ajay Kumar Mahato###
+<img src="images/ajay.jpg">
+---
 
 # Ubuntu Basic Commands for Biologist
 
