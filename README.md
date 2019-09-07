@@ -398,33 +398,45 @@ Length: 2174 (2.1K) (unauthoritative)
 ## Installation of software using terminal
 
 * How to Install BLAST+ version 2.6.0 (Step-by-Step) Ubuntu/Fedora/CentOS
+
+
+1. Create a new directory name ncbi-blast+
+
 ```bash
-
-*Step 1: Create a new directory name ncbi-blast+
-
 $ mkdir ncbi-blast+
+```
 
-*Step 2: Enter in to created directory
+1.  Enter in to created directory
 
+```bash
 $ cd ncbi-blast+
+```
 
 #For Fedora/ CentOS/ Ubuntu operating system
 
 
-*Step 3: Download the software from NCBI-FTP site
+1.  Download the software from NCBI-FTP site
 
+```bash
 $ wget -N ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.6.0/ncbi-blast-2.6.0+-1.x86_64.rpm
+```
 
-*Step 4: To Install (Fedora/ CentOS operating system)
-
+1. To Install (Fedora/ CentOS operating system)
+```bash
 $ sudo yum install ncbi-blast-2.6.0+-1.x86_64.rpm -nogpgcheck
+```
 
- To Install ( Ubuntu operating system)
-
+ __To Install ( Ubuntu operating system)__
+```bash
 $ sudo alien -i ncbi-blast-2.6.0+-1.x86_64.rpm 
+```
+1.***The easieat way***
+```bash
+$ sudo apt-get install ncbi-blast+
+```
 
-*Step 5:  To check for successful installation
-
+1.  To check for successful installation
+```bash
 $ blastn -h
 
 Output: USAGE
