@@ -1,7 +1,7 @@
 <img src="images/logo.jpeg">
 ---
 
-###Ajay Kumar Mahato###
+### Ajay Kumar Mahato ###
 <img src="images/ajay.jpg">
 ---
 
