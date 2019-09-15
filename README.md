@@ -1,7 +1,10 @@
 <img src="images/logo.jpeg">
 ---
 
-### Ajay Kumar Mahato ##
+### Ajay Kumar Mahato ###
+
+
+---
 
 
 # Ubuntu Basic Commands for Biologist
