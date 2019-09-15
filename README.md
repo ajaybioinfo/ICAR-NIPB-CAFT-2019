@@ -1,9 +1,7 @@
 <img src="images/logo.jpeg">
 ---
 
-### Ajay Kumar Mahato ###
-
-![test image size](/images/ajay.jpg){:height="300px" width="300px"}
+### Ajay Kumar Mahato ##
 
 
 # Ubuntu Basic Commands for Biologist
